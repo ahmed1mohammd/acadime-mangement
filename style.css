@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --master-color:#be5a14;
+    --back-color-nav: rgb(198, 174, 141);
+    --background-color:rgb(220, 169, 107);
+    --main-transition: all 0.8s;
+    --main-transform: scale(1.1);
+
+}
+
+
+
+.amiri-regular {
+    font-family: "Amiri", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .amiri-bold {
+    font-family: "Amiri", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .amiri-regular-italic {
+    font-family: "Amiri", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .amiri-bold-italic {
+    font-family: "Amiri", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+
+
+body{
+    background-color: var(--background-color);
+    overflow-x: hidden;
+    direction: rtl;
+    font-family: "Amiri", serif;
+    overflow-y: hidden;
+}
+
+input:focus{
+    outline: none;
+}
+
+#img11{
+  padding-left: 35%;
+  animation-name:ezz;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+
+
+@keyframes ezz{
+  0%{
+      translate: 0 0;
+  }
+
+  50%{
+translate: 0 20px;
+  }
+  100%{
+translate: 0 0;
+}
+
+}
+
+
+
+
+.container{
+padding-top: 0%;
+
+}
+ #name{
+   text-align: center;
+   color: var(--master-color);
+   height: 40px;
+   margin-bottom: 20px;
+   border: 3px solid var(--back-color-nav);
+   border-radius: 5px;
+   
+}
+
+
+#phone-num{
+  text-align: center;
+  color: var(--master-color);
+  height: 40px;
+  margin: auto;
+  border: 3px solid var(--back-color-nav);
+  border-radius: 5px;
+}
+
+#old{
+  text-align: center;
+  color: var(--master-color);
+  height: 40px;
+  margin: auto;
+  border: 3px solid var(--back-color-nav);
+  border-radius: 5px;
+}
+
+#value{
+  text-align: center;
+  color: var(--master-color);
+  height: 40px;
+  margin: auto;
+  border: 3px solid var(--back-color-nav);
+  border-radius: 5px;
+}
+
+#government{
+  text-align: center;
+  color: var(--master-color);
+  height: 40px;
+  margin: auto;
+  border: 3px solid var(--back-color-nav);
+  border-radius: 5px;
+}
+
+#send{
+  text-align: center;
+  color: var(--master-color);
+  width: 340px;
+  height: 40px;
+  margin: auto;
+  border: 3px solid var(--back-color-nav);
+  border-radius: 5px;
+
+}
+
+#send:hover{
+  background-color: var(--master-color);
+  color: var(--background-color);
+  transition: var(--main-transition);
+  transform: var(--main-transform);
+}
+
+
+button:focus{
+  outline: none;
+}
